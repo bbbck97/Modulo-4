@@ -40,10 +40,11 @@ class BandaMusical { // agregué país y cambio la variable disco a albums
 // aquí creamos al objeto usando los datos que pide el constructor
 // es como llenar el formulario con la info de la banda para tenerla guardada
 const bts = new BandaMusical(
-  "BTS",
-  "K-pop / Hip hop",
-  ["Dark & Wild", "Wings", "Love Yourself: Tear", "Map of the Soul: 7", "BE"],
-  "Corea del Sur" // el pais va solito pq es aparte de los albums
+  "BTS", 
+  "K-pop / Hip hop", 
+  ["RM", "Jin", "Suga", "J-Hope", "Jimin", "V", "Jungkook"], // Integrantes (array)
+  ["Dark & Wild", "Wings", "Love Yourself: Tear", "Map of the Soul: 7", "BE"], // Albums (array)
+  "Corea del Sur" // País (string)
 );
 
 bts.mostrarInfo();
