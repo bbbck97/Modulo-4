@@ -72,7 +72,7 @@ class Gatita {
     }
   }
 }
-// Creamos al objeto que es la gata
+// Creamos al objeto que es la gata y su objetoEnemigo que es mi abuela 
 const miGata = new Gatita("Pintita", "Calica", true, "Abuela");
 miGata.mostrarInfo();
 miGata.enfrentarEnemigo();
